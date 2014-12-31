@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.ac.ict.sensormng">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="cn.ac.ict.sensormng.service.GPSService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.GSMService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.BluetoothService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.WifiService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.AccelerometerService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.AmbientTemperatureService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.GameRotationVectorService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.GeoMagneticRotationVectorService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.GravityService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.GyroscopeService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.GyroscopeUncalibratedService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.LightService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.LinearAccelerationService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.MagneticFieldService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.MagneticFieldUncalibratedService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.OrientationService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.PressureService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.ProximityService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.RelativeHumidityService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.RotationVectorService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.SignificantMotionService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.StepCounterService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.StepDetectorService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.TemperatureService"></service>
+    </application>
+
+</manifest>
