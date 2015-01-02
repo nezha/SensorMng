@@ -15,7 +15,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.Holo.Light">
+        android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
@@ -26,30 +26,30 @@
             </intent-filter>
         </activity>
 
-        <service android:name="cn.ac.ict.sensormng.service.GPSService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.GSMService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.BluetoothService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.WifiService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.AccelerometerService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.AmbientTemperatureService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.GameRotationVectorService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.GeoMagneticRotationVectorService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.GravityService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.GyroscopeService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.GyroscopeUncalibratedService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.LightService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.LinearAccelerationService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.MagneticFieldService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.MagneticFieldUncalibratedService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.OrientationService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.PressureService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.ProximityService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.RelativeHumidityService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.RotationVectorService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.SignificantMotionService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.StepCounterService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.StepDetectorService"></service>
-        <service android:name="cn.ac.ict.sensormng.service.TemperatureService"></service>
+        <service android:name="cn.ac.ict.sensormng.service.GPSService" />
+        <service android:name="cn.ac.ict.sensormng.service.GSMService" />
+        <service android:name="cn.ac.ict.sensormng.service.BluetoothService" />
+        <service android:name="cn.ac.ict.sensormng.service.WifiService" />
+        <service android:name="cn.ac.ict.sensormng.service.AccelerometerService" />
+        <service android:name="cn.ac.ict.sensormng.service.AmbientTemperatureService" />
+        <service android:name="cn.ac.ict.sensormng.service.GameRotationVectorService" />
+        <service android:name="cn.ac.ict.sensormng.service.GeoMagneticRotationVectorService" />
+        <service android:name="cn.ac.ict.sensormng.service.GravityService" />
+        <service android:name="cn.ac.ict.sensormng.service.GyroscopeService" />
+        <service android:name="cn.ac.ict.sensormng.service.GyroscopeUncalibratedService" />
+        <service android:name="cn.ac.ict.sensormng.service.LightService" />
+        <service android:name="cn.ac.ict.sensormng.service.LinearAccelerationService" />
+        <service android:name="cn.ac.ict.sensormng.service.MagneticFieldService" />
+        <service android:name="cn.ac.ict.sensormng.service.MagneticFieldUncalibratedService" />
+        <service android:name="cn.ac.ict.sensormng.service.OrientationService" />
+        <service android:name="cn.ac.ict.sensormng.service.PressureService" />
+        <service android:name="cn.ac.ict.sensormng.service.ProximityService" />
+        <service android:name="cn.ac.ict.sensormng.service.RelativeHumidityService" />
+        <service android:name="cn.ac.ict.sensormng.service.RotationVectorService" />
+        <service android:name="cn.ac.ict.sensormng.service.SignificantMotionService" />
+        <service android:name="cn.ac.ict.sensormng.service.StepCounterService" />
+        <service android:name="cn.ac.ict.sensormng.service.StepDetectorService" />
+        <service android:name="cn.ac.ict.sensormng.service.TemperatureService" />
     </application>
 
 </manifest>
