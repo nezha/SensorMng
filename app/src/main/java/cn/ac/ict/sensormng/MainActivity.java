@@ -77,6 +77,7 @@ public class MainActivity extends ActionBarActivity {
         appPackageName = getPackageName();
         Log.i(TAG, appPackageName);
         listView = (ListView) findViewById(R.id.list_view);
+        this.setTitle(getString(R.string.app_name_title));
     }
 
     @Override
